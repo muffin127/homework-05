@@ -655,6 +655,7 @@ ul {
   transform: translate(-50%, -50%) scale(1.5);
 }
 
+/* Buttom-cross */
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -691,4 +692,19 @@ ul {
 .modal-close-btn:hover .icon-cross,
 .modal-close-btn:focus .icon-cross {
   fill: #fff;
+}
+
+/* Modal-text */
+.modal-text {
+  color: #2e2f42;
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 16px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
