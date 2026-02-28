@@ -853,18 +853,18 @@ ul {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 
-  display: block; 
-  width: 169px; 
+  display: block;
+  width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 24px auto 0; 
+  margin: 24px auto 0;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 150ms ease; 
+    transform 150ms ease;
 }
 
 .form-button:hover,
