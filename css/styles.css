@@ -180,9 +180,8 @@ ul {
 /* Main */
 /* Hero Section */
 .hero-section {
-  width: 1440px;
   margin: 0 auto;
-  padding: 188px 0;
+  padding: 188px 16px; 
 
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -195,6 +194,9 @@ ul {
 }
 
 .hero-section .container {
+  max-width: 1440px; 
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -593,7 +595,7 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 
   display: flex;
@@ -771,7 +773,12 @@ ul {
   resize: none;
   padding-top: 8px;
   padding-left: 16px;
-  margin-bottom: 8px;
+
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .contact-form textarea::placeholder {
@@ -809,6 +816,9 @@ ul {
 
 /* Checkbox and policy text */
 .field-checkbox {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
   margin-bottom: 16px;
 }
 
@@ -841,6 +851,21 @@ ul {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Icon check  */
+.custom-checkbox-icon {
+  display: none;
+}
+
+.checkbox:checked + .label-checkbox > .custom-checkbox {
+  fill: #f4f4fd;
+  background-color: #404bbf;
+  border-color: transparent;
+}
+
+.checkbox:checked + .label-checkbox > .custom-checkbox .custom-checkbox-icon {
+  display: block;
+}
+
 .privacy-link {
   color: #4d5ae5;
   font-family: Roboto;
@@ -854,12 +879,6 @@ ul {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
-}
-
-.checkbox:checked + .label-checkbox > .custom-checkbox {
-  fill: #f4f4fd;
-  background-color: #404bbf;
-  border-color: transparent;
 }
 
 /* Button-modal */
