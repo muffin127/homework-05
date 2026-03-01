@@ -740,6 +740,10 @@ ul {
 .field label {
   color: #8e8f99;
 }
+.field-comment {
+  margin-bottom: 16px;
+}
+
 /* Label typography */
 .contact-form label {
   font-weight: 400;
@@ -773,7 +777,6 @@ ul {
   resize: none;
   padding-top: 8px;
   padding-left: 16px;
-  margin: 0;
 
   font-family: Roboto;
   font-size: 12px;
@@ -820,7 +823,6 @@ ul {
   display: flex;
   flex-direction: column;
   width: 360px;
-  margin-top: 8px;
   margin-bottom: 24px;
 }
 
