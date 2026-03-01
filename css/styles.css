@@ -727,7 +727,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
 }
 
 .field {
@@ -735,6 +734,7 @@ ul {
   flex-direction: column;
   gap: 4px;
   width: 360px;
+  margin-bottom: 8px;
 }
 
 .field label {
@@ -773,7 +773,7 @@ ul {
   resize: none;
   padding-top: 8px;
   padding-left: 16px;
-  margin-bottom: 0;
+  margin: 0;
 
   font-family: Roboto;
   font-size: 12px;
@@ -784,10 +784,6 @@ ul {
 
 .contact-form textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
-}
-.contact-form textarea,
-.field-checkbox {
-  margin: 0; 
 }
 
 /* Icons in input  */
@@ -825,7 +821,7 @@ ul {
   flex-direction: column;
   width: 360px;
   margin-top: 8px;
-  margin-bottom: 0;
+  margin-bottom: 24px;
 }
 
 .label-checkbox {
@@ -903,7 +899,6 @@ ul {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
