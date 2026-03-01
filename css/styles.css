@@ -565,10 +565,9 @@ ul {
 
   color: #fff;
   font-family: Roboto;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2;
   letter-spacing: 0.48px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -660,10 +659,9 @@ ul {
     0 1px 1px 0 rgba(0, 0, 0, 0.14);
   /* Text */
   font-family: Roboto;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -717,10 +715,10 @@ ul {
   margin-bottom: 16px;
 
   font-family: Roboto;
-  font-size: 16px;
+
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -797,10 +795,9 @@ ul {
 .label-checkbox {
   color: #8e8f99;
   font-family: Roboto;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
 }
 
@@ -812,6 +809,7 @@ ul {
   height: 16px;
 
   cursor: pointer;
+  margin-right: 16px;
   border: 1px solid #2e2f4266;
   border-radius: 2px;
   fill: transparent;
@@ -824,10 +822,9 @@ ul {
 .privacy-link {
   color: #4d5ae5;
   font-family: Roboto;
-  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.48px;
   text-decoration-line: underline;
   text-decoration-style: solid;
